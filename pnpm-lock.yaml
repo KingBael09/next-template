@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^8.44.2
     version: 8.44.2
   '@types/node':
-    specifier: 20.5.7
-    version: 20.5.7
+    specifier: 20.8.0
+    version: 20.8.0
   '@types/react':
     specifier: 18.2.21
     version: 18.2.21
@@ -426,7 +426,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      ts-node: 10.9.1(@types/node@20.8.0)(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -838,8 +838,8 @@ packages:
     resolution: {integrity: sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==}
     dev: true
 
-  /@types/node@20.5.7:
-    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
+  /@types/node@20.8.0:
+    resolution: {integrity: sha512-LzcWltT83s1bthcvjBmiBvGJiiUe84NWRHkw+ZV6Fr41z2FbIzvc815dk2nQ3RAKMuN2fkenM/z3Xv2QzEpYxQ==}
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -1506,7 +1506,7 @@ packages:
     dependencies:
       '@types/node': 20.4.7
       cosmiconfig: 8.2.0
-      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      ts-node: 10.9.1(@types/node@20.8.0)(typescript@5.2.2)
       typescript: 5.2.2
     dev: true
 
@@ -3469,7 +3469,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.28
-      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      ts-node: 10.9.1(@types/node@20.8.0)(typescript@5.2.2)
       yaml: 2.3.2
 
   /postcss-nested@6.0.1(postcss@8.4.28):
@@ -4302,7 +4302,7 @@ packages:
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  /ts-node@10.9.1(@types/node@20.5.7)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.0)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -4321,7 +4321,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.5.7
+      '@types/node': 20.8.0
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
